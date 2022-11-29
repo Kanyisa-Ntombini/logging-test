@@ -1,7 +1,25 @@
-const { testingLogger } = require('../index');
+const {
+  printLogsOnly,
+  returnBooleanValue,
+  throwErrorFunction,
+} = require('../src/index');
 
-describe('testingLogger', () => {
+describe('printLogsOnly', () => {
+  it('should return undefined', () => {
+    expect(printLogsOnly()).toBeUndefined();
+  });
+});
+
+describe('returnBooleanValue', () => {
   it('should return true', () => {
-    expect(testingLogger(true)).toBeTrue();
+    expect(returnBooleanValue(true)).toBeTrue();
+  });
+});
+
+describe('throwError', () => {
+  it('should return throw an error', () => {
+    expect(() => {
+      throwErrorFunction();
+    }).toThrow();
   });
 });
