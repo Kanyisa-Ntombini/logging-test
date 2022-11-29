@@ -1,12 +1,23 @@
 {
-  "name": "loggin-test",
+  "name": "logging-test",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kanyisa-Ntombini/logging-test.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kanyisa-Ntombini/logging-test/issues"
+  },
+  "homepage": "https://github.com/Kanyisa-Ntombini/logging-test#readme",
+  "devDependencies": {
+    "jasmine": "^4.5.0",
+    "winston": "^3.8.2"
+  }
 }
