@@ -4,8 +4,8 @@
 
 I have created this project to check if I am able to create a logger that logs errors to the errors.log file when doing jasmine testing.
 
-The first function, printLogsOnly, just logs to the console and doesn't return anything. 
-The second function, returnBooleanValue, returns either true or false according to the input parameter. It logs to the console.
+The first function, printLogsOnly, just logs to the console and doesn't return anything.(space, space, Enter)
+The second function, returnBooleanValue, returns either true or false according to the input parameter. It logs to the console.(space, space, Enter)
 The last function, throwError, logs to the console and throws an error.
 
 ## Findings
